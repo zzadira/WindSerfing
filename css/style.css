@@ -1,3 +1,19 @@
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/R");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/RalewayBold.ttf");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/RalewayExtraBold.ttf");
+	font-weight: 800;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -42,6 +58,12 @@ body{
 	height: 300px;
 	margin-top: 201px;
 	margin-bottom: 64px;
+	font-family: Raleway;
+	color:  #333333;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: left
 }
 .jp{
 	background-color: #ffe16c;
