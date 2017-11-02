@@ -5,15 +5,43 @@ body{
 	display: flex;
 	flex-direction: column;
 }
-
+.container{
+	margin: 0 auto;
+	width: 1170px;
+}
 
 
 
 .header{
 	width: 100%;
+	background-color:  #abeafa
 
 }
+.header-top, .header-bot{
+	display: flex;
+	box-sizing: border-box;
+}
+
 
 .header .logo{
-	background-image: url("../image/Loho.png");
+	width: 125px;
+	height: 111px;
+	background-image: url("../image/Logo.png");
+	margin-left: 69px;
+	margin-top: 24px;
+}
+.header .header-social{
+	width: 130px;
+	height: 20px;
+	background-color: #000;
+}
+.welcome{
+	background-color:  #fff51f;
+	width: 270px;
+	height: 300px
+}
+.jp{
+	background-color: #ffe16c;
+	width: 315px;
+	height: 260px
 }
