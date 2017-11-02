@@ -27,9 +27,7 @@ body{
 .header .logo{
 	width: 125px;
 	height: 111px;
-	background-image: url("../image/Logo.png");
-	margin-left: 69px;
-	margin-top: 24px;
+	margin: 24px 0 201px 69px ;
 }
 .header .header-social{
 	width: 130px;
