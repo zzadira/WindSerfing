@@ -20,6 +20,7 @@ body{
 .header-top, .header-bot{
 	display: flex;
 	box-sizing: border-box;
+	justify-content: space-between;
 }
 
 
@@ -34,6 +35,8 @@ body{
 	width: 130px;
 	height: 20px;
 	background-color: #000;
+	margin-right: 64px;
+	margin-top: 50px;
 }
 .welcome{
 	background-color:  #fff51f;
