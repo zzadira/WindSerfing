@@ -1,16 +1,21 @@
 @font-face {
 	font-family: "Raleway";
-	src: url("../fonts/Ralea");
+	src: url("../fonts/Raleway-Regular.ttf");
 	font-weight: 400;
 }
 @font-face {
 	font-family: "Raleway";
-	src: url("../fonts/RalewayBold.ttf");
+	src: url("../fonts/Raleway-Bold.ttf");
 	font-weight: 700;
 }
 @font-face {
 	font-family: "Raleway";
-	src: url("../fonts/RalewayExtraBold.ttf");
+	src: url("../fonts/Raleway-ExtraBold.ttf");
+	font-weight: 800;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-BoldItalic.ttf");
 	font-weight: 800;
 }
 
@@ -52,23 +57,73 @@ body{
 	margin-right: 64px;
 	margin-top: 50px;
 }
-.welcome{
-	background-color:  #fff51f;
+.welcome {
+	background-color: #fff51f;
 	width: 270px;
 	height: 300px;
 	margin-top: 201px;
 	margin-bottom: 64px;
-	font-family: Raleway;
+	padding-left: 26px;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+.welcome h3{
+	font-family: "Raleway", sans-serif;;
 	color:  #333333;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 30px;
-	text-align: left
+	text-align: left;
+	text-transform: uppercase;
+	margin-top: 78px;
+
 }
+.welcome p{
+	font-family: "Raleway", sans-serif;
+	color:  #333333;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 14px;
+	text-align: left;
+	font-style: italic;
+}
+
 .jp{
-	background-color: #ffe16c;
 	width: 315px;
 	height: 280px;
 	margin-top: 108px;
 	margin-right: 105px;
+	box-sizing: border-box;
+	position: relative;
+}
+.jp h2{
+	font-family: "Raleway", sans-serif;;
+	color:  #fff51f;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 34px;
+	text-align: left;
+	margin: 0;
+	text-transform: uppercase;
+}
+.jp p{
+	font-family: "Raleway", sans-serif;
+	color:  #fff51f;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+.buy-now{
+	background-color:  #fff51f;
+	width: 124px;
+	height: 49px;
+	font-family: sans-serif;
+	font-weight: 800;
+	color:  #000000;
+	font-size: 14px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
 }
