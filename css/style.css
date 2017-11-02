@@ -27,7 +27,7 @@ body{
 .header .logo{
 	width: 125px;
 	height: 111px;
-	margin: 24px 0 201px 69px ;
+	margin: 24px 0 0 69px ;
 }
 .header .header-social{
 	width: 130px;
@@ -39,10 +39,14 @@ body{
 .welcome{
 	background-color:  #fff51f;
 	width: 270px;
-	height: 300px
+	height: 300px;
+	margin-top: 201px;
+	margin-bottom: 64px;
 }
 .jp{
 	background-color: #ffe16c;
 	width: 315px;
-	height: 260px
+	height: 280px;
+	margin-top: 108px;
+	margin-right: 105px;
 }
