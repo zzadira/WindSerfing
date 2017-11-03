@@ -129,6 +129,8 @@ a{
 	font-weight: 400;
 	line-height: 24px;
 	text-align: left;
+	position: absolute;
+	top: 57px;
 }
 .buy-now{
 	background-color:  #fff51f;
