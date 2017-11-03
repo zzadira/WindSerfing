@@ -72,11 +72,12 @@ a{
 	height: 300px;
 	margin-top: 201px;
 	margin-bottom: 64px;
-	padding-left: 26px;
-	padding-right: 30px;
-	box-sizing: border-box;
+	position: relative;
+
 }
 .welcome h3{
+	margin: 0;
+	width: 201px;
 	font-family: "Raleway", sans-serif;;
 	color:  #333333;
 	font-size: 30px;
@@ -84,7 +85,10 @@ a{
 	line-height: 30px;
 	text-align: left;
 	text-transform: uppercase;
-	margin-top: 78px;
+	position: absolute;
+	left: 25px;
+	top: 77px;
+
 
 }
 .welcome p{
@@ -95,6 +99,9 @@ a{
 	line-height: 14px;
 	text-align: left;
 	font-style: italic;
+	position: absolute;
+	top: 140px;
+	left: 22px;
 }
 
 .jp{
