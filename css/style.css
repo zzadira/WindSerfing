@@ -12,6 +12,7 @@
 	font-family: "Raleway";
 	src: url("../fonts/Raleway-ExtraBold.ttf");
 	font-weight: 800;
+
 }
 @font-face {
 	font-family: "Raleway";
@@ -36,14 +37,16 @@
 body{
 	margin: 0;
 	padding: 0;
-	/*background: url("../image/wave.jpg") top no-repeat;*/
+	background: url("../image/wave.jpg") top no-repeat;
+	background-attachment: fixed;
 
 	display: flex;
 	flex-direction: column;
 }
 .container{
 	margin: 0 auto;
-	max-width: 1170px;
+	width: 1170px;
+	display: flex;
 }
 a{
 	list-style: none;
@@ -54,13 +57,16 @@ li{
 }
 
 
-
 .header{
 	min-width: 100%;
-	/*background: transparent;*/
-	background-color:  #abeafa;
+	background: transparent;
+
 
 }
+.container:nth-of-type(1){
+	flex-direction: column;
+}
+
 .header-top, .header-bot{
 	display: flex;
 	box-sizing: border-box;
@@ -163,13 +169,18 @@ li{
 	bottom: 0;
 	left: 0;
 }
+.container-middle{
+	display: flex;
+	position: relative;
+	margin-top: -20px;
+	background-color:  #f8f8f8;
+}
 
 .wrap-menu-now{
 	width: 270px;
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
-	margin-top: -20px;
 }
 .title{
 	background-color:  #333333;
@@ -177,12 +188,12 @@ li{
 	height: 66px;
 }
 
-.wrap-menu-now a{
+.wrap-menu-now a {
 	display: flex;
-	background-color:  #26d2fc;
+	background-color: #26d2fc;
 	width: 270px;
 	font-family: Roboto, sans-serif;
-	color:  #000000;
+	color: #000000;
 	font-size: 14px;
 	font-weight: 900;
 	line-height: 36px;
@@ -209,6 +220,108 @@ li{
 	padding-left: 40px;
 	box-sizing: border-box;
 }
+.now{
+	background-image: url("../image/banner-now.jpg");
+	width: 270px;
+	height: 300px;
+	margin-top: 51px;
+	position: relative;
+}
+.now h2 {
+	margin:0;
+	padding: 0;
+	width: 109px;
+	height: 98px;
+	font-family: Raleway, sans-serif;
+	color: #333333;
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 36px;
+	text-align: left;
+	position: absolute;
+	top: 40px;
+	left: 39px;
+	text-transform: uppercase;
+}
 
+.wrap-products{
+	max-width:870px;;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 0;
+
+}
+.wrap-products h3{
+	width: 100%;
+	font-family: Roboto, sans-serif;
+	color:  #707070;
+	font-size: 22px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+	margin-left: 30px;
+	text-transform: uppercase;
+
+}
+.new-product{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.productItem{
+	background-color:  #ffffff;
+	width: 270px;
+	height: 320px;
+	margin-top: 30px;
+	padding:10px 10px 10px;
+	box-sizing: border-box;
+	position: relative;
+
+}
+.new-product div:nth-of-type(1), .new-product div:nth-of-type(2),.new-product div:nth-of-type(3){
+	margin-top: 0;
+}
+.productImg{
+	background-color:  #eaeaea;
+	width: 250px;
+	height: 235px;
+}
+.productName{
+	font-family: Roboto, sans-serif;
+	max-width: 140px;
+	color:  #333333;
+	font-size: 14px;
+	font-weight: 900;
+	font-style: italic;
+	line-height: 18.012px;
+	text-align: left;
+	position: absolute;
+	top: 255px;
+	left: 20px;
+}
+.productPrice {
+	font-family: Roboto, sans-serif;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: right;
+	position: absolute;
+	top: 255px;
+	right: 15px;
+}
+.productOldPrice{
+	font-family: Roboto, sans-serif;
+	color:  #e24602;
+	font-size: 14px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: right;
+	position: absolute;
+	bottom: 20px;
+	right: 15px;
+	text-decoration: line-through;
+}
 
 
