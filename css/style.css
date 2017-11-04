@@ -354,14 +354,21 @@ li{
 }
 .insta{
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	background-color:  #eaeaea;
 	width: 100%;
 	height: 350px;
 	padding-top: 51px;
 	box-sizing: border-box;
 }
-.insta span{
+.instaTop{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 26px;
+}
+
+.instaTop span{
 	font-family: Roboto, sans-serif;
 	color:  #333333;
 	font-size: 22px;
@@ -369,12 +376,13 @@ li{
 	font-style: italic;
 	text-align: left;
 }
-.insta .fa{
+.instaTop .fa{
 font-size: 28px;
 	color:  #333333;
 	font-weight: 800;
+	margin-right: 5px;
 }
-.insta span:after{
+.instaTop span:after{
 	content:'#surfhouse' ;
 	font-family: Roboto, sans-serif;
 	color:  #333333;
@@ -382,6 +390,16 @@ font-size: 28px;
 	font-weight: 900;
 	font-style: italic;
 	text-align: left;
+}
+.instaImg{
+	display: flex;
+	justify-content: space-between;
+}
+.instaImg .item{
+	width: 185px;
+	height: 185px;
+	/*border: 10px solid white;*/
+	/*box-sizing: border-box;*/
 }
 
 
