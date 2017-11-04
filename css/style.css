@@ -39,6 +39,8 @@ body{
 	padding: 0;
 	background: url("../image/wave.jpg") top;
 	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	display: flex;
 	flex-direction: column;
