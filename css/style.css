@@ -505,13 +505,10 @@ font-size: 28px;
 	text-align: left;
 }
 .newsLetter{
-	max-width: 195px;
+	max-width: 250px;
 	color:  #ffffff;
 }
-.aboutUs{
-	max-width: 226px;
-	color:  #f8f8f8;
-}
+
 .newsLetter .title, .aboutUs .title{
 	margin-bottom: 5px;
 }
@@ -524,10 +521,11 @@ font-size: 28px;
 }
 .wrapInputEmail{
 	display: flex;
+	margin-top: 20px;
 }
 .bottom input[type="email"]{
 	background-color:  #fff51f;
-	width: 180px;
+	width: 280px;
 	height: 30px;
 	font-family: Roboto, sans-serif;
 	color:  #333333;
@@ -537,6 +535,7 @@ font-size: 28px;
 	text-align: left;
 	text-transform: uppercase;
 	padding-left: 10px;
+
 	box-sizing: border-box;
 }
 .bottom button {
@@ -551,6 +550,31 @@ font-size: 28px;
 	text-align: left;
 	border: none;
 }
+.creditCards{
+	display: flex;
+	width: 270px;
+	justify-content: space-between;
+	margin-top: 45px;
+	margin-left: -10px;
+	box-sizing: border-box;
+
+}
+.itemCard{
+	width: 36px;
+	height: 22px;
+}
+.aboutUs{
+	max-width: 253px;
+	color:  #f8f8f8;
+}
+.aboutUs .contact{
+	margin-top: 15px;
+	box-sizing: border-box;
+}
+.aboutUs .contact span:nth-child(odd){
+	margin-right:18px;
+}
+
 footer{
 	background-color:  #333333;
 	width: 100%;
