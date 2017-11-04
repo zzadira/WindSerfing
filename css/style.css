@@ -363,7 +363,7 @@ li{
 	padding-left: 20px;
 }
 
-.top-products div{
+.top-products div, .sale-products div{
 	margin-top: 0;
 }
 .top-products h3, .sale-products h3{
