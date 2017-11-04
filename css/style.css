@@ -390,11 +390,15 @@ li{
 .insta{
 	display: flex;
 	flex-direction: column;
-	background-color:  #eaeaea;
+	/*background-color:  #eaeaea;*/
+	background-image: url("../image/SRFP-130700-AUSTRALIA-08.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100%;
 	height: 350px;
 	padding-top: 51px;
 	box-sizing: border-box;
+
 }
 .instaTop{
 	width: 100%;
