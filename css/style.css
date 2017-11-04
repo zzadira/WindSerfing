@@ -425,10 +425,10 @@ font-size: 28px;
 	margin-right: 5px;
 }
 .instaTop span:after{
-	content:'#surfhouse' ;
+	content:'#surfhouse';
 	font-family: Roboto, sans-serif;
 	color:  #333333;
-	font-size: 18px;/
+	font-size: 18px;
 	font-weight: 900;
 	font-style: italic;
 	text-align: left;
