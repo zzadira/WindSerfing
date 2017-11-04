@@ -583,10 +583,13 @@ footer{
 }
 footer .container{
 	justify-content: space-around;
+
 }
 
 footer .min-social{
+	width: auto;
 	margin: 0;
+
 }
 
 
