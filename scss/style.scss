@@ -56,14 +56,12 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 100%;
 }
 
 
 .container {
   margin: 0 auto;
   width: 1170px;
-  display: flex;
 }
 
 .image {
@@ -192,9 +190,9 @@ li {
 }
 
 .container-middle {
-  display: flex;
   position: relative;
   margin-top: -20px;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -267,9 +265,8 @@ li {
 
 .wrap-products {
   width: 870px;
-  display: flex;
-  flex-direction: column;
   background-color: #f8f8f8;
+  float: right;
   h3 {
     width: 100%;
     font-family: Roboto, sans-serif;
@@ -501,7 +498,10 @@ li {
 }
 
 .container-bottom {
+  display: flex;
   justify-content: space-between;
+  padding:0 25px;
+  box-sizing: border-box;
 }
 
 .blockBot {
@@ -613,17 +613,19 @@ footer {
     display: flex;
     align-items: center;
     background-color: #333333;
-    width: 100%;
     height: 47px;
     font-family: Roboto, sans-serif;
     color: #dad9d9;
     font-size: 12px;
     font-weight: 400;
     line-height: 21.6px;
-
-    .container {
-      justify-content: space-around;
+    .container{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 25px;
+      box-sizing: border-box;
     }
+
     .min-social {
       width: auto;
       margin: 0;
