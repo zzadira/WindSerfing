@@ -27,7 +27,8 @@
   src: url("../fonts/Roboto-Bold.ttf");
   font-weight: 900; }
 html {
-  width: 100%; }
+  margin: 0 auto;
+  min-width: 1170px; }
 
 body {
   margin: 0;
@@ -36,7 +37,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  float: left; }
+  min-width: 100%; }
 
 .container {
   margin: 0 auto;
@@ -56,7 +57,6 @@ li {
   list-style: none; }
 
 .header {
-  min-width: 100%;
   background: transparent; }
 
 .container-top {
@@ -220,7 +220,7 @@ li {
     text-transform: uppercase; }
 
 .wrap-products {
-  max-width: 870px;
+  width: 870px;
   display: flex;
   flex-direction: column;
   background-color: #f8f8f8; }
@@ -513,22 +513,22 @@ li {
     box-sizing: border-box; }
     .aboutUs .contact span:nth-child(odd) {
       margin-left: 18px; }
-  .aboutUs footer {
-    display: flex;
-    align-items: center;
-    background-color: #333333;
-    width: 100%;
-    height: 47px;
-    font-family: Roboto, sans-serif;
-    color: #dad9d9;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 21.6px;
-    text-align: left; }
-    .aboutUs footer .container {
-      justify-content: space-around; }
-    .aboutUs footer .min-social {
-      width: auto;
-      margin: 0; }
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #333333;
+  width: 100%;
+  height: 47px;
+  font-family: Roboto, sans-serif;
+  color: #dad9d9;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.6px; }
+  footer .container {
+    justify-content: space-around; }
+  footer .min-social {
+    width: auto;
+    margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
