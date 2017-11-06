@@ -219,9 +219,10 @@ li {
 
 .wrap-products {
   width: 870px;
-  background-color: #f8f8f8;  }
+  background-color: #f8f8f8;
+overflow: hidden}
   .wrap-products h3 {
-    width: 840px;
+    width: 100%;
     font-family: Roboto, sans-serif;
     color: #707070;
     font-size: 22px;
