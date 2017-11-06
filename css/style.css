@@ -154,7 +154,8 @@ li {
 .container-middle {
   position: relative;
   margin-top: -20px;
-  display: flex; }
+  display: flex;
+  justify-content: space-between}
 
 .wrap-menu-now {
   width: 270px;
@@ -218,10 +219,9 @@ li {
 
 .wrap-products {
   width: 870px;
-  background-color: #f8f8f8;
-  float: right; }
+  background-color: #f8f8f8;  }
   .wrap-products h3 {
-    width: 100%;
+    width: 870px;
     font-family: Roboto, sans-serif;
     color: #707070;
     font-size: 22px;

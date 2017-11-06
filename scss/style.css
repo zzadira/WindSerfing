@@ -154,7 +154,8 @@ li {
 .container-middle {
   position: relative;
   margin-top: -20px;
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .wrap-menu-now {
   width: 270px;
