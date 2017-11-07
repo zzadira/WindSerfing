@@ -204,17 +204,29 @@ li {
       color: #ffffff; }
     .wrap-menu-now li:nth-of-type(4):hover .side{
      visibility: visible;
-    }
+    }.wrap-menu-now li:nth-of-type(4):hover .arrowMenu{
+       visibility: hidden;
+     }
     .side{
       display: flex;
       flex-direction: column;
       background-color: #75e3fe;
       position: absolute;
-      left: 270px;
-      top: 174px;
+      left: 24px;
+      top: -7px;
       z-index: 1;
       visibility: hidden;
     }
+    .arrowMenu{
+      width: 20px;
+      height:20px;
+      background-image: url("../image/Contols_-_Essential-02-512.png");
+      background-size: cover;
+      position: absolute;
+      left: 246px;
+      top: 181px;
+    }
+
 
 .now {
   background-image: url("../image/banner-now.jpg");
