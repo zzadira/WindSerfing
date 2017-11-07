@@ -80,6 +80,8 @@ li {
   letter-spacing: 16px; }
   .min-social a {
     color: white; }
+  .min-social a:hover {
+    color: black; }
 
 .welcome {
   background-color: #fff51f;
@@ -177,6 +179,12 @@ li {
     text-transform: uppercase;
     padding-left: 40px;
     box-sizing: border-box; }
+  .wrap-menu-now ul {
+    margin: 0;
+    padding: 0; }
+    .wrap-menu-now ul li {
+      margin: 0;
+      padding: 0; }
   .wrap-menu-now a {
     display: flex;
     background-color: #26d2fc;
@@ -194,6 +202,29 @@ li {
     .wrap-menu-now a:hover {
       background-color: #333333;
       color: #ffffff; }
+  .wrap-menu-now li:nth-of-type(4):hover .side {
+    visibility: visible; }
+  .wrap-menu-now li:nth-of-type(4):hover .arrowMenu {
+    visibility: hidden; }
+
+.side {
+  display: flex;
+  flex-direction: column;
+  background-color: #75e3fe;
+  position: absolute;
+  left: 24px;
+  top: -7px;
+  z-index: 1;
+  visibility: hidden; }
+
+.arrowMenu {
+  width: 20px;
+  height: 20px;
+  background-image: url("../image/Contols_-_Essential-02-512.png");
+  background-size: cover;
+  position: absolute;
+  left: 246px;
+  top: 181px; }
 
 .now {
   background-image: url("../image/banner-now.jpg");
@@ -220,7 +251,7 @@ li {
 .wrap-products {
   width: 870px;
   background-color: #f8f8f8;
-  float: right; }
+  overflow: hidden; }
   .wrap-products h3 {
     width: 100%;
     font-family: Roboto, sans-serif;
@@ -245,6 +276,8 @@ li {
   padding: 10px 10px 10px;
   box-sizing: border-box;
   position: relative; }
+  .productItem:hover {
+    background-color: #b1b0ff; }
 
 .new-product div:nth-of-type(1), .new-product div:nth-of-type(2), .new-product div:nth-of-type(3) {
   margin-top: 0; }
@@ -393,6 +426,12 @@ li {
   .instaImg .item {
     width: 185px;
     height: 185px; }
+    .instaImg .item:hover {
+      border: 10px solid transparent;
+      box-sizing: border-box; }
+      .instaImg .item:hover:hover .item {
+        width: 175px;
+        height: 175px; }
 
 .big-social {
   display: flex; }
@@ -404,6 +443,9 @@ li {
     height: 150px;
     font-size: 62px;
     color: #fff; }
+    .big-social div:hover {
+      font-size: 72px;
+      text-shadow: 3px 2px 2px black; }
   .big-social .facebook {
     background-color: #3b5997;
     color: #fff; }
@@ -532,5 +574,9 @@ footer {
   footer .min-social {
     width: auto;
     margin: 0; }
+    footer .min-social a:hover {
+      color: yellow; }
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
