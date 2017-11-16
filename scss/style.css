@@ -26,6 +26,9 @@
   font-family: "Roboto";
   src: url("../fonts/Roboto-Bold.ttf");
   font-weight: 900; }
+@media screen and (max-width: 1024px) {
+  video {
+    display: none; } }
 html {
   margin: 0 auto;
   min-width: 1170px; }
@@ -33,10 +36,15 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url("../image/wave.jpg") top;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: url("../image/wave.jpg") fixed no-repeat center;
   background-size: cover; }
+
+video {
+  position: fixed;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden; }
 
 .container {
   margin: 0 auto;
@@ -80,8 +88,8 @@ li {
   letter-spacing: 16px; }
   .min-social a {
     color: white; }
-  .min-social a:hover {
-    color: black; }
+    .min-social a:hover {
+      color: black; }
 
 .welcome {
   background-color: #fff51f;
@@ -429,7 +437,7 @@ li {
     .instaImg .item:hover {
       border: 10px solid transparent;
       box-sizing: border-box; }
-      .instaImg .item:hover:hover .item {
+      .instaImg .item:hover .item {
         width: 175px;
         height: 175px; }
 
@@ -577,6 +585,7 @@ footer {
     footer .min-social a:hover {
       color: yellow; }
 
+/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

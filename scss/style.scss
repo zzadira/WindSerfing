@@ -46,6 +46,11 @@
   font-weight: 900;
 }
 
+@media screen and(max-width: 1024px){
+  video{
+    display: none;
+  }
+}
 
 html {
   margin: 0 auto;
@@ -55,10 +60,16 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url("../image/wave.jpg") top;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: url("../image/wave.jpg") fixed no-repeat center;
   background-size: cover;
+}
+
+video {
+  position: fixed;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .container {
@@ -111,9 +122,9 @@ li {
   letter-spacing: 16px;
   a {
     color: white;
-  }
-  a:hover{
-    color: black;
+    &:hover {
+      color: black;
+    }
   }
 }
 
@@ -335,9 +346,9 @@ li {
   padding: 10px 10px 10px;
   box-sizing: border-box;
   position: relative;
-    &:hover{
-      background-color: #b1b0ff;
-    }
+  &:hover {
+    background-color: #b1b0ff;
+  }
 }
 
 .new-product div {
@@ -503,17 +514,16 @@ li {
 .instaImg {
   display: flex;
   justify-content: space-between;
-
   .item {
     width: 185px;
     height: 185px;
     &:hover {
       border: 10px solid transparent;
       box-sizing: border-box;
-    &:hover .item{
-      width: 175px;
-      height: 175px;
-    }
+      .item {
+        width: 175px;
+        height: 175px;
+      }
     }
   }
 }
@@ -528,7 +538,7 @@ li {
     height: 150px;
     font-size: 62px;
     color: #fff;
-    &:hover{
+    &:hover {
       font-size: 72px;
       text-shadow: 3px 2px 2px black;
     }
@@ -685,11 +695,15 @@ footer {
   .min-social {
     width: auto;
     margin: 0;
-    a:hover{
-    color: yellow;
+    a:hover {
+      color: yellow;
     }
   }
-
 }
+
+
+
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
